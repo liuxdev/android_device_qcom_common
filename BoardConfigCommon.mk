@@ -51,7 +51,7 @@ BOARD_KERNEL_BASE     := 0x80200000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET  := 0x02000000
 BOARD_MKBOOTIMG_ARGS  := --ramdisk_offset 0x02000000
-BOARD_KERNEL_CMDLINE  := console=null androidboot.hardware=qcom ehci-hcd.park=3 maxcpus=2 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE  := console=null androidboot.hardware=qcom ehci-hcd.park=3 maxcpus=2 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive selinux=0
 TARGET_PREBUILT_KERNEL :=
 
 # Wifi
